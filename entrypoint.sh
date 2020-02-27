@@ -1,4 +1,7 @@
 #!/bin/sh
+TOK = $FIREBASE_TOKEN
+
+echo "Tok ${TOK}"
 echo "Token ${FIREBASE_TOKEN}"
 
 if [ -z "${FIREBASE_TOKEN}" ]; then
@@ -13,4 +16,4 @@ fi
 
 firebase deploy \
     -m "${GITHUB_SHA}" \
-    --project ${FIREBASE_PROJECT} 
+    --project ${FIREBASE_PROJECT}
