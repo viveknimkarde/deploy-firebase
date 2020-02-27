@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "Token ${FIREBASE_TOKEN}"
 
 if [ -z "${FIREBASE_TOKEN}" ]; then
     echo "FIREBASE_TOKEN is missing"
