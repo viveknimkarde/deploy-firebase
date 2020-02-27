@@ -1,7 +1,7 @@
 #!/bin/sh
 TOK = $FIREBASE_TOKEN
 
-echo "Tok ${TOK}"
+echo $TOK
 echo "Token ${FIREBASE_TOKEN}"
 
 if [ -z "${FIREBASE_TOKEN}" ]; then
