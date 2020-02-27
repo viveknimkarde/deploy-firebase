@@ -1,10 +1,4 @@
 #!/bin/sh
-
-TOK = "Token Value"
-
-echo $TOK
-echo "Token ${FIREBASE_TOKEN}"
-
 if [ -z "${FIREBASE_TOKEN}" ]; then
     echo "FIREBASE_TOKEN is missing"
     exit 1
