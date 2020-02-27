@@ -1,5 +1,5 @@
 #!/bin/sh
-$TOK = $FIREBASE_TOKEN
+TOK = $FIREBASE_TOKEN
 
 echo "Tok ${TOK}"
 echo "Token ${FIREBASE_TOKEN}"
